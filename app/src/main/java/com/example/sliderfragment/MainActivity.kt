@@ -18,7 +18,6 @@ class MainActivity : FragmentActivity() {
 
         adapter = SliderAdapter(this)
         slider = findViewById(R.id.main_slider)
-
         slider.adapter = adapter
     }
 }
